@@ -32,10 +32,7 @@ nav>ul {
     float: right;
 }
 
-.content-container {
-    padding-left: 30px;
-    padding-right: 30px;
-}
+
 
 .content {
     height: 700px;
@@ -146,6 +143,7 @@ vertical apoi cu justify */
   justify-content:space-around;
   display:inline-block;
   flex-direction: column;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
 }
 
 .location{
@@ -161,7 +159,9 @@ vertical apoi cu justify */
 }
 
 .background-image{
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height:500px;
-  width:100000px;
+  width:100%;
+  display:flex;
+  justify-content:space-around;
+  
 }
