@@ -124,8 +124,8 @@ vertical apoi cu justify */
 .locations img{
   height:500px;
   width:1060px;
-  padding-left: 20px;
-  padding-right: 20 px;
-  flow: left;
+  display:flex;
+  justify-content: center;
+  
 
 }
