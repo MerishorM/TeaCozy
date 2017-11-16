@@ -138,14 +138,6 @@ vertical apoi cu justify */
   justify-content:center;
 }
 
-.locations{
-  display:flex;
-  justify-content:space-around;
-  flex-direction: column;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-  width:100%;
-}
-
 
 .location{
   color:white;
@@ -157,4 +149,11 @@ vertical apoi cu justify */
   flex-direction: column;
   opacity:1.0;
 
+}
+
+.locations{
+  display:flex;
+  justify-content: space-around;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width:100%;
 }
