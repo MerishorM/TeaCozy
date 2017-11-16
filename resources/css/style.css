@@ -126,6 +126,17 @@ vertical apoi cu justify */
   width:1060px;
   display:flex;
   justify-content: center;
-  
 
+
+}
+
+.tea-month{
+  width:1000px;
+  height:700px;
+}
+
+.month-tea-container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
 }
