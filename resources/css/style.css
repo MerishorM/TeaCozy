@@ -141,10 +141,11 @@ vertical apoi cu justify */
 .locations{
   display:flex;
   justify-content:space-around;
-  display:inline-block;
   flex-direction: column;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width:100%;
 }
+
 
 .location{
   color:white;
@@ -156,12 +157,4 @@ vertical apoi cu justify */
   flex-direction: column;
   opacity:1.0;
 
-}
-
-.background-image{
-  height:500px;
-  width:100%;
-  display:flex;
-  justify-content:space-around;
-  
 }
