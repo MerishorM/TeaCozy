@@ -1,93 +1,129 @@
-body{
-  background-color: black;
-
+body {
+    background-color: black;
 }
 
-h2{
-  font-family: Helvetica;
-  font-size:22px;
-  color: seashell;
-  opacity: 0.9;
-  height: 50px;
-  background-color: black;
-  padding-left: 10px;
-  display:flex;
+h2 {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    height: 50px;
+    background-color: black;
+    padding-left: 10px;
+    display: flex;
 }
 
-.title{
-  height: 69px;
-  border-bottom: 1px solid seashell;
-  display:fixed;
-  display:flex;
+.title {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
 }
 
-.header nav{
-  display:inline-block;
-  font-size:22px;
-  color: seashell;
-  opacity: 0.9;
-  display: flex-end;
-
+nav {
+    display: inline-block;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    /* da-mi width 90% sa lasam spatiu pt titlul din stanga*/
+    width: 90%;
 }
 
- .content{
 
-   height:700px;
-   width: 1200px;
-   padding-left: 30px;
-   padding-right: 30px;
-   background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
- }
+/*apoi ii zicem la ul din nav sa se duca in dreapta avand deja display flex
+mostenit de la parinte */
 
- .flex-container{
-
-   color:white;
-   background-color: black;
-   justify-content:center;
-   align-items:center;
-   align-content:center;
-   padding left 600px;
+nav>ul {
+    float: right;
 }
 
-h4{
-  background-color: black;
-  justify-content:center;
-  align-items: center;
-  align-content:center;
 
+/* punem containerul cu imaginea cu background intr-un alt container
+sa controlam pozitia mai usor */
+
+.content-container {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.tea-month h2{
-  align-items: center;
-  align-content:center;
-  justify-content:center;
+.content {
+    height: 700px;
+    width: 1200px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.content h2{
-  align-items: center;
-  align-content:center;
-  justify-content:center;
+.content-title {
+    background-color: black;
+    text-align: center;
+    width: 1200px;
 }
 
-.tea-month h4{
-  text-align: center;
+.flex-container {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding left 600px;
 }
 
-img{
-  width: 300px;
-  height:200px;
+h4 {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
-.tea-container{
-  display:flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.tea-month h2 {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
-.tea img{
-  display:block;
+.content h2 {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
-.tea span{
-  display:block;
+.tea-month h4 {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.tea-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* punem toate pozele intr-un container, le dam flex sa le putem alinia 
+vertical apoi cu justify */
+
+.month-tea-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* selectam containerul apoi clasa .tea din el si ii dam distanta dorita */
+
+.month-tea-container .tea {
+    padding: 1em;
+}
+
+.tea img {
+    display: block;
+}
+
+.tea span {
+    display: block;
 }
