@@ -24,21 +24,13 @@ nav {
     font-size: 22px;
     color: seashell;
     opacity: 0.9;
-    /* da-mi width 90% sa lasam spatiu pt titlul din stanga*/
-    width: 90%;
+    width:90%;
 }
 
-
-/*apoi ii zicem la ul din nav sa se duca in dreapta avand deja display flex
-mostenit de la parinte */
 
 nav>ul {
     float: right;
 }
-
-
-/* punem containerul cu imaginea cu background intr-un alt container
-sa controlam pozitia mai usor */
 
 .content-container {
     padding-left: 30px;
@@ -105,7 +97,7 @@ img {
 }
 
 
-/* punem toate pozele intr-un container, le dam flex sa le putem alinia 
+/* punem toate pozele intr-un container, le dam flex sa le putem alinia
 vertical apoi cu justify */
 
 .month-tea-container {
@@ -118,6 +110,7 @@ vertical apoi cu justify */
 
 .month-tea-container .tea {
     padding: 1em;
+
 }
 
 .tea img {
@@ -126,4 +119,13 @@ vertical apoi cu justify */
 
 .tea span {
     display: block;
+}
+
+.locations img{
+  height:500px;
+  width:1060px;
+  padding-left: 20px;
+  padding-right: 20 px;
+  flow: left;
+
 }
