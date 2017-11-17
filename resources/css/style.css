@@ -157,3 +157,12 @@ vertical apoi cu justify */
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   width:100%;
 }
+
+.contact {
+  text-align:center;
+
+}
+
+.contact h2{
+  text-align:center;
+}
