@@ -2,11 +2,23 @@ body {
     background-color: black;
 }
 
+header{
+  position:fixed;
+}
+
+nav{
+  display:inline-block;
+}
+
+.header nav{
+  display:inline-block;
+}
+
+
 h2 {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
-    opacity: 0.9;
     height: 50px;
     background-color: black;
     padding-left: 10px;
@@ -27,12 +39,24 @@ nav {
     width:90%;
 }
 
+.tea-month{
+  margin: 0 auto;
+}
+.flex-container {
+  display:flex;
+}
 
 nav>ul {
     float: right;
 }
 
-
+header {position:fixed;
+  margin-top: -10px;
+  display: inline-block;
+  width: 100%;
+  background-color: black;
+  margin-left: -15px;
+}
 
 .content {
     height: 700px;
