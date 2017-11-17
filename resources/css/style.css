@@ -14,6 +14,10 @@ nav{
   display:inline-block;
 }
 
+ header{
+  color:seashell;
+}
+
 
 h2 {
     font-family: Helvetica;
@@ -48,6 +52,7 @@ nav {
 
 nav>ul {
     float: right;
+
 }
 
 header {position:fixed;
@@ -117,17 +122,10 @@ img {
     flex-wrap: wrap;
 }
 
-
-/* punem toate pozele intr-un container, le dam flex sa le putem alinia
-vertical apoi cu justify */
-
 .month-tea-container {
     display: flex;
     justify-content: center;
 }
-
-
-/* selectam containerul apoi clasa .tea din el si ii dam distanta dorita */
 
 .month-tea-container .tea {
     padding: 1em;
@@ -147,8 +145,6 @@ vertical apoi cu justify */
   width:1060px;
   display:flex;
   justify-content: center;
-
-
 }
 
 .tea-month{
@@ -196,3 +192,18 @@ h5{
   display:block;
   font-weight:bold;
 }
+
+.content-container{
+  text-align:center;
+}
+
+.locations{
+    height: 500px;
+    justify-contet: space-around;
+    align-items:center;
+  }
+
+  footer{
+    text-align: left;
+    margin-left:150px;
+  }
