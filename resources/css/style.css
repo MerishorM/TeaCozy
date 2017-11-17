@@ -165,4 +165,10 @@ vertical apoi cu justify */
 
 .contact h2{
   text-align:center;
+  display:block;
+}
+
+h5{
+  display:block;
+  font-weight:bold;
 }
